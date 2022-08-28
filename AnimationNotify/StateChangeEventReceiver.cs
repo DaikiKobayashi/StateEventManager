@@ -32,7 +32,7 @@ namespace StateEventManager
                 .Invoke(animator);
         }
 
-        private void ChangeEventListener(EventListener listener)
+        public void ChangeEventListener(EventListener listener)
         {
             m_currentListener = listener;
         }
